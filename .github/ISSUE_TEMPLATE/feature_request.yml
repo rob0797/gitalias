@@ -1,0 +1,24 @@
+name: 💡 Proposta di funzionalità
+description: Suggerisci un'idea o un miglioramento
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Quale problema risolve
+      description: Qual è il bisogno o la frustrazione dietro la proposta?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Soluzione proposta
+      description: Cosa vorresti che GitAlias facesse.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative considerate
+    validations:
+      required: false

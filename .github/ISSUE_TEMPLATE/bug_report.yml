@@ -1,0 +1,57 @@
+name: 🐛 Segnalazione bug
+description: Segnala un malfunzionamento di GitAlias
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per la segnalazione! Per problemi di **sicurezza** non usare questo
+        modulo: segui la [Security Policy](../../security/policy).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Cosa succede
+      description: Descrivi il problema e cosa ti aspettavi invece.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passi per riprodurlo
+      placeholder: |
+        1. Apro '...'
+        2. Clicco su '...'
+        3. Vedo l'errore '...'
+    validations:
+      required: true
+  - type: dropdown
+    id: variant
+    attributes:
+      label: Come lo usi
+      options:
+        - Installer (Setup-GitAlias.exe)
+        - Portable (zip)
+        - Sorgente (gitalias.ps1)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versione GitAlias
+      placeholder: "2.0.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Versione Windows
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Note aggiuntive
+      description: Log, screenshot o altro. Non incollare dati personali.
+    validations:
+      required: false

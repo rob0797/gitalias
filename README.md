@@ -4,6 +4,8 @@
 Niente più `git config --global user.email "..."` copincollato sbagliato tra un
 repo di lavoro e uno personale. Scegli un preferito, premi *Applica*, fatto.
 
+![Release](https://img.shields.io/github/v/release/rob0797/gitalias)
+![License](https://img.shields.io/github/license/rob0797/gitalias)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6)
 ![PowerShell](https://img.shields.io/badge/PowerShell-WinForms-5391FE)
 ![Admin](https://img.shields.io/badge/admin-non%20richiesto-brightgreen)
