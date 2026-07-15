@@ -1,0 +1,12 @@
+[
+    {
+        "label": "Personale",
+        "name": "Mario Rossi",
+        "email": "you@example.com"
+    },
+    {
+        "label": "Lavoro",
+        "name": "Mario Rossi",
+        "email": "you@company.com"
+    }
+]

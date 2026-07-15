@@ -1,0 +1,14 @@
+# --- Dati utente (MAI su git) ---
+favorites.json
+portable.flag
+
+# --- Output di build (rigenerabile con build.ps1) ---
+# Tutto dist/ e' generato: i deliverable (portable/ + installer/) e gli
+# intermedi (_work/). Si condividono a mano, non via git.
+dist/
+
+# --- Sistema / editor ---
+Thumbs.db
+Desktop.ini
+*.log
+.vs/
